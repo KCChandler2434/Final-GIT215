@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Winter Pier Contact</title>
+        <meta name="author" content="Chandler">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="copy.css">
+    </head>
+
+    <header>
+        <img src="images/favicon for git 215.png" alt="logo for Winter Pier">
+        <a href="index.html"><h1>Winter Pier</h1></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accomodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="images\swiss-valley.jpg" alt="image of a forest landscape with snowy mountains in the background">
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>  Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            <img src="images\swiss-sunset.jpg" alt="image of a sunset in a forested town in the mountains">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST"
+            >
+                <div id="questions">
+                    <label for="my-name">Full Name<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+
+                    <label for="my-phone">Phone Number</label>
+                    <input type="tel" name="my-phone" id="my-phone">
+
+                    <label for="my-email">Email<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+                </div>
+                <div id="radio">
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                            <label for="pref-email">Email</label>
+                            <input type="radio" name="contact-pref" id="pref-phone">
+                            <label for="pref-phone">Phone</label>
+                    </fieldset>
+
+                    <label for="my-comments">Comments</label>
+			        <textarea name="my-comments" id="my-comments"></textarea>
+
+			        <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </div>
+            </form>
+            </section>
+    </main>
+        <footer>
+            <p> Copyright ©2023 - Winter Pier Hotel</p>
+            <p> This site is for educational purposes only</p>
+        </footer>
